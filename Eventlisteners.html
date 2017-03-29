@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+      <title> Evenet Listeners </title>
+  </head>
+
+  <body>
+
+    <div id="Hello_btn" >
+      say hello
+    </div>
+
+
+    <script>
+      var x = 1;
+
+      document.getElementById('hello_btn').addEventListener('click', function(){
+          console.log('button has been clicked' + x + 'times');
+          x += 1;
+      });
+
+    </script>
+  </body>
+
+
+  </html>
